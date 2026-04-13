@@ -1,0 +1,326 @@
+
+nav
+{
+    background-color: #D7A546;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav ul li:hover
+{
+    background-color: #ddd;
+
+}
+
+nav ul li 
+{
+
+    border: 2px solid rgb(130, 130, 130);
+    display: inline;
+    margin: 5px;
+    padding: 15px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+nav ul li a
+{
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+    
+    
+}
+nav ul{
+    padding-left: 0px;
+}
+
+#active
+{
+    border: 2px solid rgb(0, 199, 133);
+    background-color: rgb(0, 131, 59);
+}
+
+/* Table Formatting*/
+table
+{
+    width: 100%;
+    
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    padding: 2%;
+
+}
+
+/* Table Content Formatting*/
+th, td, tr
+{
+    border: 1px solid oldlace;
+    text-align: left;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: oldlace;
+    margin: 15px auto;
+    border: 1px solid oldlace; 
+    margin: 0px;
+    padding: 0px;
+    background-color: oldlace;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+footer 
+{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    
+    background-color: #D7A546;
+    text-align: center;
+    clear: both;
+    border-top: 2px solid #D7A546; 
+                
+    width: 90%;
+}
+
+footer p
+{
+    text-align: center;
+    color: aliceblue;
+}
+
+.mainBodyFormat
+{
+    text-align: center;
+    
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.mainBodyFormat h2
+{
+    color: rgb(130, 130, 130);
+}
+
+.mainBodyFormat h6
+{
+    color: rgb(130, 130, 130);
+}
+.mainBodyFormat img
+{
+    
+    width: 90%;
+    height: 80%;
+
+}
+.mainBodyFormat p
+{
+    text-align: left 2px;
+    color: rgb(130, 130, 130);
+    overflow: auto;
+}
+
+
+.Border{
+    
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.Border img
+{
+    border: 5px solid rgb(255, 255, 255);
+    width: 40%;
+    height: 10%;
+    float: left;
+   
+}
+.Border h2 {
+    color: oldlace;
+    overflow: auto;
+}
+
+
+.Border aside p
+{
+    margin-top: 0px;
+    width: 52%;
+    float: right;
+    padding-right: 16px;
+    padding-bottom: 10px;
+}
+
+.maxDisplay
+{
+    max-height: 350px;
+    overflow: auto;
+}
+/* Header formatting */
+header
+{
+    background-image: url(../images/Pictures_of_One_Hundred_Demons.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-color: navajowhite;
+    border: 1px solid #D7A546;
+    padding-top: 6px;
+    
+}
+/* Header Title formatting */
+header h1
+{
+    padding-right: 10%;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+header img
+{   
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    overflow: auto;
+    margin-left: 2px;
+}
+
+/* Used for background color in main*/
+main
+{
+    background-color: oldlace;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  color: rgb(130, 130, 130);
+  font-size: 16px;
+  border: none;
+  
+}
+
+/* Positions the dropdown */
+.dropdown {
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  
+}
+/* General rules for dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* General rules for links in dropdown content */
+.dropdown-content a {
+  color: rgb(130, 130, 130);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ddd;
+color:rgb(130, 130, 130);}
+
+
+/* Formats all in nave to center nav*/
+.topnav
+{
+  text-align: center;
+  
+}
+
+/* Formats the search box in the nav*/
+.topnav input[type=text] {
+  
+  
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Section Defines text color */
+
+ol li 
+{
+    color: rgb(130, 130, 130);
+}
+
+ol li a
+{
+    color: rgb(130, 130, 130);
+}
+
+form
+{
+    color: rgb(130, 130, 130);
+}
+
+h3
+{
+     color: rgb(130, 130, 130);
+}
+a
+{
+    color: rgb(130, 130, 130);
+}
+
+/* Used to format the articles */
+article
+{
+     color: rgb(130, 130, 130);
+     padding-top: 5px;
+     margin-bottom: 45px;
+}
+
+.newsColumn
+{
+    column-count: 2;
+    column-rule: 1px solid black;
+    column-width: 20px;
+    column-gap: 15px;
+    padding: 2px;
+    color: rgb(130, 130, 130);
+                               
+}
+
+#sidebarA 
+{
+    width: 180px;
+    height: 350px;     /* to give the sidebar some height for its border */
+    float: left;
+    border-right: 2px solid #D7A546; 
+}               
+
