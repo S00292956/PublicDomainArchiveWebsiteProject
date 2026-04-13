@@ -16,51 +16,74 @@
          <link rel="stylesheet" href = "css/styles.css">
          <link rel="icon" href="images/favicon.ico">
          <style>
+
+            input[type= "radio" ]
+            {
+                width: 10px;
+                color: rgb(130, 130, 130);
+            }
+
+            .required
+            {
+                font-weight: bold;
+                color: red;
+            }
+         
+
+            input
+            {
+                
+                margin-bottom: .5em;
+
+            }
+
+            #button, #reset
+            {
+                margin-top: .5em;
+                width: 8em;
+                background-color: #D7A546;
+                border: 2px solid oldlace;
+                color: oldlace;
+            }
+
+            input[type = "checkbox" ]
+            {
+                width: 15px;
+            }
+
+            table
+            {
             
-            body
-            {
-                background-color: oldlace;
-                width: 90%;
-                margin-left: 5%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 20px;
+            margin: 20px;
+            padding: 2%;
+
             }
 
-            .newsColumn
+            th, td, tr
             {
-                column-count: 3;
-                column-rule: 1px solid black;
-                column-width: 20px;
-                column-gap: 10px;
-                width: 33%;
-                padding: 2px;
-                               
+                border: 1px solid black;
+                text-align: left;
+                color: rgb(130, 130, 130);
             }
 
-            #sidebarA 
+            .Contactform
             {
-                width: 180px;
-                height: 350px;     /* to give the sidebar some height for its border */
-                float: left;
-                border-right: 2px solid #D7A546; 
-            }
-
-            h2 
-            { 
-                padding: 0em; 
-            }
-            
-            footer 
-            {
-                clear: both;
-                border-top: 2px solid #D7A546; 
+                margin: 15px 200px;
+                padding-inline: 40px;
+                border: black solid 1px;
+                background: oldlace;
+                min-height: 200px;
                 text-align: center;
-                width: 90%;
-
+                margin-bottom: 80px;
             }
          </style>
     </head>
 
     <body>
-        <header style="height: auto;">
+          <header style="height: auto;">
             <!-- Header Section of Code-->
             <img width = "119" height = "90" style = "float:left; margin-right: 2px;" src="images/android-chrome-192x192.png" alt="logo" >
             <h1> Archive of public domain art </h1>
@@ -69,20 +92,26 @@
              
     <nav>
     
+
+    
     <ul>
       <li class="dropdown">
          <button class="dropbtn">Menu</button>
          <section class="dropdown-content">
-            <a href="home.html">home</a>
-            <a href="index.html">index</a>
-            <a href="about.html">about</a>
+            <a href="home.html">Home</a>
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
          </section>
        </li>
-       <Li> <a href="home.html">home</a></Li>
-       <Li> <a href="index.html">index</a></Li>
-       <Li> <a href="about.html">about</a></Li>
+       <Li> <a href="home.html">Home</a></Li>
+       <Li> <a href="index.html">Index</a></Li>
+       <Li> <a href="about.html">About</a></Li>
+       
        <li><input class="topnav" type="text" placeholder="Search.."></li>
     </ul>
+    
+    
+    
    </nav>
 
        
@@ -90,13 +119,83 @@
 
             <section class="mainBodyFormat">
                 <h2>About Page</h2>
-                <p>
-                   This is the about page more to come
-                </p>
+
+                <section style="margin-top: 8px; padding-bottom: 26px;">
+                  <a id="top"></a>
+                  <a href="#bottom">Go to page Bottom</a>
+                </section>
+
+
+                <article style="float: left; padding-left: 15px; width: 40%; margin-bottom: 5px;"> 
+                    <p>
+                        Welcome to the archive of public domain art. This website is a repository of different forms of art that are currently in the public domain and are considered as free use artwork. Here you will find works that range from paintings, to movies, and music. Please feel free to take a look around the website and enjoy your time here. All of our art is sourced from sites that contain public domain images and ther will be listed below.
+                    </p>
+
+
+                    <ol>
+                        <li> <a href="https://search.creativecommons.org/">Creative Commons</a></li>
+                        <li> <a href="https://pdimagearchive.org/">Public Domain Image Archive</a></li>
+                        <li> <a href="https://publicdomainreview.org/">The Public Domain Review</a></li>
+                        <li> <a href="https://www.loc.gov/free-to-use/">Library of Congress</a></li>
+                    </ol>
+
+                    <p>Here is a table of what catagories of art we have as well as what percentage of the collection they take up</p>
+
+                    <article>
                 
-            </section>
+                        <table>
+                        <tr>
+                            <th>Paintings</th>
+                            <th>Videos</th>
+                            <th>Music</th>
+                        </tr>
+                        <tr>
+                            <th>33%</th>
+                            <th>33%</th>
+                            <th>33%</th>
+                        </tr>
+                        </table>
+                    </article>
+                </article>
+            
+                   
+                    
+              
+                <aside style="margin-left: 50%; padding-right: 40px; width: 30%"> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.5435440539113!2d-77.00729392338768!3d38.88868397172608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feef68ef83a4d%3A0x46cbb296f4de3eec!2sLibrary%20of%20Congress!5e0!3m2!1sen!2sie!4v1774529710588!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </aside>
+           
 
 
+            
+        </section>
+
+        <section class="mainBodyFormat">
+            <section class = "Contactform" style="padding-left: 15px;    margin: 15px 200px; margin-top: 200px; text-align: center;">
+
+                <h3>Sign Up for our newsletter </h3>
+
+                <form action="http:/foo.com" method="put">
+                    <label for="first_name">First name: <span class ="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last name: <span class ="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="email">Email: <span class ="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                
+                
+                    
+                    <input style="margin-left: 1em;" type="submit" name="submit" id = "button" value = "Submit">
+                    <input style="margin-left: 1em;" type="reset" name="reset" id = "reset">
+                    
+                </form>
+                
+                </section>
+                <section style="margin-bottom: 80px; text-align: center;">
+                        <a id="bottom"></a>
+                        <a href="#top">Go to Page Top</a>
+                </section>
+        </section>
         </main>
 
         <footer>
